@@ -5,7 +5,15 @@ import pandas as pd
 import torch
 import os
 import sys
-
+st.markdown("""
+<style>
+.stApp {
+    background: linear-gradient(135deg, #ffb400, #ff5e00, #1a1a1a);
+    color: black;
+    font-family: 'Impact', sans-serif;
+}
+</style>
+""", unsafe_allow_html=True)
 # Configuración de página Streamlit
 st.set_page_config(
     page_title="Detección de Objetos en Tiempo Real",
